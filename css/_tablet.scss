@@ -1,0 +1,133 @@
+/////////////////////////////
+//         Tablet          //
+//        <-768px          //
+/////////////////////////////
+
+
+
+// body{
+//     background: rgb(155, 30, 30);
+// }
+
+.welcomeSection {
+    min-height: 100vh;
+    h1 {
+        font-size: 4rem;
+        padding: 20% 0% 0% 40%;
+    }
+
+    p {
+        padding: 0% 5% 0% 40%;
+    }
+    
+    footer {
+        img {
+            display: inline;
+            width: 15rem;
+            // max-width: 40rem;
+            right: 30%;
+        }
+    }
+}
+
+.skillSection {
+    h2 {
+        font-size: 3rem;
+        padding: 0% 0% 0% 0%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        top: 50rem;
+
+        p {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .skill{
+            text-align: right;
+            padding-top: 15px;
+            border-radius: 15px;
+          }
+    }
+}
+
+.experienceSection {
+    min-height: 100vh;
+    h2 {
+        font-size: 3rem;
+        padding: 10% 5% 5% 0%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.aboutSection {
+    min-height: 100vh;
+    h2 {
+        font-size: 3rem;
+        padding: 10% 5% 5% 0%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.connectSection {
+    min-height: 100vh;
+    
+    h2 {
+        font-size: 3rem;
+        padding: 10% 5% 5% 0%;
+    }
+
+    .socialsBar {
+        margin-top: 5%;
+    }
+
+    .formBox {
+        max-width: 150%;
+        margin: 0;
+    }
+
+    input[type="submit"] {
+        width: 101.5%;
+    }
+}
+
+.menuCollapsed {
+    top: 1rem;
+    left: 1rem;
+}
+
+.menuExpanded {
+    top: 0%;
+    left: 0%;
+}
+
+.b-a {
+    transition: all .25s;
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 6px;
+    width: 55px;
+    border-radius: 15px;
+    background-color: $yel;
+  }
+
+.bar {
+    &:before {
+        top: -15px;
+    }
+    &:after {
+        top: 15px;
+    }
+}
