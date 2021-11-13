@@ -1,0 +1,99 @@
+/////////////////////////////
+//    Landscape mobile     //
+//          576px          //
+/////////////////////////////
+
+/*----------------------------*\
+  2B. Hamburgarmeny
+  3C. Sections & huvudinnehåll
+\*----------------------------*/
+
+
+/*---------------------------*\
+    2B. Hamburgarmeny
+\*---------------------------*/
+
+//Menyn öppen
+.menuExpanded {
+    line-height: 3rem;
+
+    ul {
+        top: 1rem;
+    }
+}
+
+/*--------------------------*\
+ 3C. Sections & huvudinnehåll
+\*--------------------------*/
+
+//Klass för att sätta min och max-width på allt innehåll.
+.sectionContainer {
+    width: #{"min(80%, 70.5rem)"};
+}
+
+//Första sidan/sektionen.
+.welcomeSection {
+    padding: 0;
+
+    h1 {
+        padding: 5% 0% 0% 25%;
+    }
+
+    footer {
+        max-width: 30%;
+        left: 40%;
+        right: 40%;
+        bottom: 1%;
+
+        .bounce {
+            margin-top: 5%;
+        }
+    }
+
+    svg {
+        width: 15%;
+    }
+}
+
+//Andra sidan/sektionen.
+.skillSection {
+    h2{
+        padding: 0% 5% 0% 0%;
+    }
+
+    .container {
+        .react {
+            margin: 0% 0% 10% 0%;
+        }
+    }
+}
+
+//Trejde sidan/sektionen.
+.experienceSection {
+    h2 {
+        padding: 0% 5% 0% 0%;
+    }
+}
+
+//Fjärde sidan/sektionen.
+.aboutSection {
+    h2 {
+        padding: 0% 5% 0% 0%;
+    }
+}
+
+//Femte sidan/sektionen.
+.connectSection {
+    h2 {
+        padding: 0% 5% 0% 0%;
+    }
+
+    .socialsBar {
+        margin-bottom: 10%;
+    }
+
+    input[type="submit"] {
+        width: 102%;
+    }
+}
+
